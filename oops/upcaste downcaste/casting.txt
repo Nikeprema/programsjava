@@ -1,0 +1,37 @@
+class friends{
+
+             String name;
+			 
+			 
+			 void college(){
+			 
+			 System.out.println(" friends");
+			 
+			 }
+			 
+class nithis extends friends{
+
+          void college(){
+
+            System.ou.println("	my friend");
+
+        }
+		}
+		
+		
+public class casting{
+  
+                 public static void main (String args[]){
+
+                   friends n=new nithis();
+				   
+				   n.name="SANJEEV";
+				   
+				   System.ou.println(n.name());
+				   
+				   
+				   nithis c=(nithis)n;
+				   
+				   
+				   
+		

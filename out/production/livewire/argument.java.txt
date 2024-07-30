@@ -1,0 +1,22 @@
+public class argument
+                 {
+				 public static void main(String args[]){
+				      
+					    Scanner in= new Scanner(System.in);
+						
+						System.out.println("oii 1st arguments:"+args[0] + "2ed arguments:"+args[1]);
+						
+						System.out.println("enter first value");
+						int a= in.nextInt();
+						
+						System.out.println("enter second value");
+						int b= in.nextInt();
+						
+						int sum= a+b;
+						 
+						System.out.println("sum of two value"+sum);
+						}
+						}
+						
+						
+			
