@@ -1,0 +1,10 @@
+public class nikesh
+              public static void main (string args[])
+			  {
+			  int a=20;
+			  int b=40
+			  int c=a+b;
+			  system.out.println("sum of the two numbers"+c)
+			  }
+			  }
+			  
