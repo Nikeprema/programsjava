@@ -1,0 +1,42 @@
+import java.util.Collections;
+import java.util.LinkedList;
+public class compare{
+
+                     public static void main(String args[]){
+					 
+					 LinkedList<String> f1=new LinkedList<String>();
+					 
+					 f1.add("nitish");
+					 f1.add("sanjeev");
+					 f1.add("nikesh");
+					 f1.add("pooli");
+					 f1.add("viky");
+					 f1.add("muguntha");
+					 
+					
+					 
+					 LinkedList<String> f2=new LinkedList<String>();
+					 
+					 f2.add("nitish");
+					 f2.add("sanjeev");
+					 f2.add("nikesh");
+					 f2.add("srini");
+					 f2.add("gokul");
+					 
+					 LinkedList<String> f3=new LinkedList<String>();
+					 
+					 for(String e:f1)
+					 
+					  f3.add(f2.contains(e)?"yes":"no");
+					  
+					    System.out.println(f3);
+						
+						
+						 
+				      Collections.shuffle(f1);
+					 
+					 System.out.println(f1);
+						}
+						
+						}
+					 
